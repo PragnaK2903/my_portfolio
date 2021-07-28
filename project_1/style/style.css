@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightcyan;
+    width: 100%;
+    margin: 0px auto;
+}
+nav ul li{
+    list-style-type: none;
+	float: left;
+	padding-right: 2.5em;
+	color: crimson;
+}
+nav ul{
+	float: right;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: lightpink;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+}
+a:visited{
+    color: crimson;
+}
+a:active{
+    color: white;
+}
+hr{
+    background-color: navy;
+    height: 4px;
+}
+main{
+    padding-top: 50px;
+}
+.home{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.home .home__inner{
+    vertical-align: middle;
+    font-size: 50px;
+    color: navy;
+}
+.home .home__inner img{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+    border-radius: 100%;
+}
+.home .home__inner p{
+    text-align: center;
+    font-size: 30px;
+    color: navy;
+}
+.about{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 3s;
+}
+.about:hover{
+    background-color: lightcoral;
+}
+.about .about__inner{
+    color: navy;
+    position: relative;
+}
+
+.about .about__inner h1{
+    font-size: 45px;
+}
+.about .about__inner p{
+    padding-top: 5px;
+    padding-left: 35%;
+    font-size: 20px;
+    padding-right: 20px;
+    position: absolute;
+    line-height: 2rem;
+}
+.about .about__inner img{
+    display: block;
+    float: left;
+}
+.education{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.education .education__inner{
+    color: navy;
+    text-align: center;
+   justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education .education__inner h1{
+    font-size: 45px;
+}
+.skills{
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    color: navy;
+}
+.skills .skills__inner{
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills .skills__inner h1{
+    font-size: 45px;
+}
+.skills .skills__inner h3{
+    font-size: 30px;
+}
+.skills .skills__inner{
+    color: navy;
+    text-align: center;
+}
+.skills .skills__inner .table2{
+    padding-left: 350px;
+}
+.contact{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 3s;
+}
+.contact:hover{
+    background-color: hotpink;
+}
+.contact .contact__inner{
+    color: navy;
+}
+.contact .contact__inner h1{
+    font-size: 45px;
+}
+.contact .contact__inner .contact__image{
+    display: block;
+    width: 100px;
+    height: auto;
+    padding-left: 33%;
+}
+..contact .contact__inner .address{
+    padding-top: 50px;
+    padding-left: 70px;
+}
